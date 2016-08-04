@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html>
-
-  {% include head.html %}
-
+  {% include header.html %}
   <body>
+  <section class="main wrapper">
+    <article>
+  <!--  Section to add image article for each post TBU 
+      <div class="article_image">
+        <a href="#">
+          <img src="img/pic1.jpg" alt="" title="">
+        </a>
+      </div> -->
+      <div class="post">
+        <h1 class="title">
+          <a href="#">{{ page.title }}.</a>
+        </h1>
+        
+        <p> {{ content }}</p>
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+        <a class="read_more" href="#">Continue Reading <i class="read_more_arrow"></i> </a>
       </div>
-    </div>
+    </article>
 
+    <nav class="pagination">
+      <a href="#" class="previous"><i></i>Previous</a>
+      <a href="#" class="next">Next<i></i></a>
+    </nav><!-- Pagination End -->
+  </section><!-- Main End -->
     {% include footer.html %}
 
   </body>
