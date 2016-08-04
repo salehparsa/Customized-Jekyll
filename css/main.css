@@ -415,11 +415,11 @@ footer ul.social_profiles li a{
 	height: 40px;
 	margin-right: 16px; 
 	display: inline-block;
-	background: url('../img/sp.png') no-repeat;
+ /*	background: url('../img/sp.png') no-repeat; */
 }
 
 footer ul.social_profiles li a:hover{
-	background: url('../img/sp_hover.png') no-repeat;
+	/*background: url('../img/sp_hover.png') no-repeat; */
 }
 
 footer ul.social_profiles .f a{
